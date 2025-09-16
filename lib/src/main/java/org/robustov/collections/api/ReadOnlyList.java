@@ -114,11 +114,11 @@ public final class ReadOnlyList<E> extends AbstractList<E> {
 
   @Override
   public boolean equals(Object o) {
-    return delegate.equals(o);
+    return super.equals(o);
   }
 
   @Override
   public int hashCode() {
-    return delegate.hashCode();
+    return super.hashCode();
   }
 }
