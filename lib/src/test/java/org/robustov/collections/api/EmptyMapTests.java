@@ -1,4 +1,3 @@
-
 package org.robustov.collections.api;
 
 import org.junit.jupiter.api.Test;
